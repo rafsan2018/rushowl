@@ -1,9 +1,7 @@
 import React from 'react';
-import Input,{InputProps} from './Input'; // Import Input component
+import Input,{InputProps} from './Input'; 
 
-// Define InputProps interface here
 
-// Define FormikControlProps interface by extending InputProps
 interface FormikControlProps extends InputProps {
   control: 'input';
 }
